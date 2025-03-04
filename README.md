@@ -7,3 +7,6 @@
 
 ## Калькулятор
 [![asciicast](https://asciinema.org/a/Cz8WVu8yiR3KNYX1TzCHsHLmR.svg)](https://asciinema.org/a/Cz8WVu8yiR3KNYX1TzCHsHLmR)
+
+## Наибольший общий делитель
+[![asciicast](https://asciinema.org/a/GmtsoytMQLKft8GObBo1lobjw.svg)](https://asciinema.org/a/GmtsoytMQLKft8GObBo1lobjw)
