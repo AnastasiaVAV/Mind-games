@@ -14,10 +14,10 @@ const checkParity = () => {
   for (let i = 0; i < correctAnswerCounter; i += 1) {
     const number = getRandomNumber();
     const answer = readlineSync.question(`Question: ${number}\nYour answer: `);
-    const isEven = number % 2 === 0;
-    const correctAnswer = isEven ? 'yes' : 'no';
+    const isEven = number % 2;
+    const correctAnswer = isEven === 0 ? 'yes' : 'no';
     if (answer !== correctAnswer) {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${userName}`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}`);
       return;
     }
     console.log('Correct!');
