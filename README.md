@@ -3,10 +3,10 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/3b862699ea324215f784/maintainability)](https://codeclimate.com/github/AnastasiaVAV/frontend-project-44/maintainability)
 
 ## Проверка на четность
-[![asciicast](https://asciinema.org/a/6F81jFxowS19yBbbxJZvp3RFx.svg)](https://asciinema.org/a/6F81jFxowS19yBbbxJZvp3RFx)
+[![asciicast](https://asciinema.org/a/jyrUk0Y9g1kmqwo11oRogKlD1.svg)](https://asciinema.org/a/jyrUk0Y9g1kmqwo11oRogKlD1)
 
 ## Калькулятор
-[![asciicast](https://asciinema.org/a/Cz8WVu8yiR3KNYX1TzCHsHLmR.svg)](https://asciinema.org/a/Cz8WVu8yiR3KNYX1TzCHsHLmR)
+[![asciicast](https://asciinema.org/a/FlvrdNujpS3NOUdr6wXvDT3Xh.svg)](https://asciinema.org/a/FlvrdNujpS3NOUdr6wXvDT3Xh)
 
 ## Наибольший общий делитель
 [![asciicast](https://asciinema.org/a/GmtsoytMQLKft8GObBo1lobjw.svg)](https://asciinema.org/a/GmtsoytMQLKft8GObBo1lobjw)
