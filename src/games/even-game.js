@@ -4,10 +4,10 @@ import launchTheGame from '../index.js';
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const checkParity = () => {
-  const guestion = getRandomNumber(100);
-  const isEven = guestion % 2 === 0;
+  const question = getRandomNumber(100);
+  const isEven = question % 2 === 0;
   const correctAnswer = isEven ? 'yes' : 'no';
-  return [guestion, correctAnswer];
+  return [question, correctAnswer];
 };
 
 const launchEvenGame = () => launchTheGame(rules, checkParity);
