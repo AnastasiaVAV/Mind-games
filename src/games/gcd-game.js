@@ -4,9 +4,7 @@ import launchTheGame from '../index.js';
 const rules = 'Find the greatest common divisor of given numbers.';
 
 const checkGreatestComDiv = () => {
-  const [numbers, gcd] = getRandomGcd();
-  const question = numbers;
-  const correctAnswer = gcd;
+  const [question, correctAnswer] = getRandomGcd();
   return [question, correctAnswer];
 };
 

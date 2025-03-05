@@ -10,3 +10,6 @@
 
 ## Наибольший общий делитель
 [![asciicast](https://asciinema.org/a/GmtsoytMQLKft8GObBo1lobjw.svg)](https://asciinema.org/a/GmtsoytMQLKft8GObBo1lobjw)
+
+## Арифметическая прогрессия
+[![asciicast](https://asciinema.org/a/hNySjLfVqO3J8dJXwhv4CskTu.svg)](https://asciinema.org/a/hNySjLfVqO3J8dJXwhv4CskTu)
