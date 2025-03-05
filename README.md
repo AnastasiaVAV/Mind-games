@@ -13,3 +13,6 @@
 
 ## Арифметическая прогрессия
 [![asciicast](https://asciinema.org/a/hNySjLfVqO3J8dJXwhv4CskTu.svg)](https://asciinema.org/a/hNySjLfVqO3J8dJXwhv4CskTu)
+
+## Простое ли число?
+[![asciicast](https://asciinema.org/a/gdX2VxyoOciTpVKt3UKiBRqm4.svg)](https://asciinema.org/a/gdX2VxyoOciTpVKt3UKiBRqm4)
