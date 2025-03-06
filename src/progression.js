@@ -1,9 +1,15 @@
 import getRandomNumber from './random.js';
 
-const getRandomProgression = (firstNum = 50, stepMax = 10, stepMin = 1, length = 10) => {
-  const array = [getRandomNumber(firstNum)];
+const maxFirstNumber = 50;
+const stepMax = 10;
+const stepMin = 1;
+const maxLength = 10;
+const minLength = 5;
+
+const getRandomProgression = () => {
+  const array = [getRandomNumber(maxFirstNumber)];
   const stepOfProgression = getRandomNumber(stepMax, stepMin);
-  const lengthOfProgression = getRandomNumber(length, 5);
+  const lengthOfProgression = getRandomNumber(maxLength, minLength);
   for (let i = 1; i < lengthOfProgression; i += 1) {
     const nextNumber = array[array.length - 1] + stepOfProgression;
     array.push(nextNumber);
@@ -11,13 +17,4 @@ const getRandomProgression = (firstNum = 50, stepMax = 10, stepMin = 1, length =
   return array;
 };
 
-const getProgressionForQuestion = () => {
-  const array = getRandomProgression();
-  const randomIndex = getRandomNumber(array.length - 1, 0);
-  const answer = array[randomIndex];
-  const newArray = [...array];
-  newArray[randomIndex] = '..';
-  return [newArray, answer.toString()];
-};
-
-export default getProgressionForQuestion;
+export default getRandomProgression;

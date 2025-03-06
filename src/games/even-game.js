@@ -10,6 +10,6 @@ const checkParity = () => {
   return [question, correctAnswer];
 };
 
-const launchEvenGame = () => launchTheGame(rules, checkParity);
+const launchGame = () => launchTheGame(rules, checkParity);
 
-export default launchEvenGame;
+export default launchGame;
