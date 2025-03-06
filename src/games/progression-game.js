@@ -11,7 +11,7 @@ const getGameRound = () => {
   const question = [...array];
   const CorrectAnswer = question[randomIndex];
   question[randomIndex] = '..';
-  return [question, CorrectAnswer.toString()];
+  return [question.join(' '), CorrectAnswer.toString()];
 };
 
 const launchGame = () => launchTheGame(rules, getGameRound);
