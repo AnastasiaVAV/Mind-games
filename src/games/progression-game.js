@@ -1,19 +1,14 @@
 import getRandomProgression from '../progression.js';
 import getRandomNumber from '../random.js';
-import launchTheGame from '../index.js';
 
-const rules = 'What number is missing in the progression?';
+export const rules = 'What number is missing in the progression?';
 const minIndex = 0;
 
-const getGameRound = () => {
+export const getGameRound = () => {
   const array = getRandomProgression();
-  const randomIndex = getRandomNumber(array.length - 1, minIndex);
+  const randomIndex = getRandomNumber(minIndex, array.length - 1);
   const question = [...array];
   const CorrectAnswer = question[randomIndex];
   question[randomIndex] = '..';
   return [question.join(' '), CorrectAnswer.toString()];
 };
-
-const launchGame = () => launchTheGame(rules, getGameRound);
-
-export default launchGame;

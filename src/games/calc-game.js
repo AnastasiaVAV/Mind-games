@@ -1,19 +1,18 @@
 import getRandomNumber from '../random.js';
-import launchTheGame from '../index.js';
 
-const rules = 'What is the result of the expression?';
+export const rules = 'What is the result of the expression?';
 const operations = ['-', '+', '*'];
+const minNumber = 0;
+const maxNumber = 10;
 
 const getRandomOperation = () => {
-  const operation = operations[getRandomNumber(operations.length, 0)];
+  const operation = operations[getRandomNumber(0, operations.length)];
   return operation;
 };
 
-const maxNumber = 25;
-
-const getGameRound = () => {
-  const num1 = getRandomNumber(maxNumber);
-  const num2 = getRandomNumber(maxNumber);
+export const getGameRound = () => {
+  const num1 = getRandomNumber(minNumber, maxNumber);
+  const num2 = getRandomNumber(minNumber, maxNumber);
   const operation = getRandomOperation();
   const question = `${num1} ${operation} ${num2}`;
   let correctAnswer;
@@ -33,7 +32,3 @@ const getGameRound = () => {
   }
   return [question, correctAnswer.toString()];
 };
-
-const launchGame = () => launchTheGame(rules, getGameRound);
-
-export default launchGame;
