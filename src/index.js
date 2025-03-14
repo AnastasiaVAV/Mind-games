@@ -8,8 +8,8 @@ const launchTheGame = (rules, getGameRound) => {
   console.log(rules);
 
   for (let i = 0; i < correctAnswerCounter; i += 1) {
-    const [guestion, correctAnswer] = getGameRound();
-    const answer = readlineSync.question(`Question: ${guestion}\nYour answer: `);
+    const [question, correctAnswer] = getGameRound();
+    const answer = readlineSync.question(`Question: ${question}\nYour answer: `);
     if (answer !== correctAnswer) {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${userName}!`);
