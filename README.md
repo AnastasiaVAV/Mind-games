@@ -1,8 +1,7 @@
 # Игры разума
 [![Actions Status](https://github.com/AnastasiaVAV/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AnastasiaVAV/frontend-project-44/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/3b862699ea324215f784/maintainability)](https://codeclimate.com/github/AnastasiaVAV/frontend-project-44/maintainability)
 
-## Набор консольных математических игр для развития логического мышления. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново
+Набор консольных математических игр для развития логического мышления. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново
 
 ## Технологии
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
