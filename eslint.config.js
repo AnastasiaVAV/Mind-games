@@ -20,6 +20,7 @@ export default [
     rules: {
       'no-console': 'off',
       'import/extensions': ['error', 'ignorePackages'],
+      'semi': ['error', 'never'],
     },
   },
 ];
