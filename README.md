@@ -14,9 +14,10 @@
 
 ## Установка и использование
 
-### Установка как global package
+### Установка
 ```bash
-npm install -g @anastasiavav/mind-games
+git clone git@github.com:AnastasiaVAV/Mind-games.git
+make install
 ```
 Запуск игр
 ```bash
